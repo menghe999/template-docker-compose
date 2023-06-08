@@ -56,7 +56,7 @@ services:
     #user: "1004"
     #端口号
     ports:
-      - 3307:3306
+      - 3306:3306
     #环境变量
     environment:
       MYSQL_ROOT_PASSWORD: root
